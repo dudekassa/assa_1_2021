@@ -10,4 +10,9 @@ public class MainController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/zadanie_1")
+    public String zadanie01() {
+        return "zadanie_1";
+    }
 }
