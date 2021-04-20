@@ -14,5 +14,10 @@ public class MainController {
     @GetMapping("/zadanie_1")
     public String zadanie01() {
         return "zadanie_1";
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "welcome";
+
     }
 }
